@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar li {
+    margin: 0 15px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#navbar a:hover {
+    color: #f0f0f0;
+}
+
+.scrolled {
+    background-color: #555;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+#logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+main {
+    margin-top: 60px; /* Adjust based on the height of your navbar */
+    padding: 20px;
+}
+
+#menu {
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.item-info {
+    text-align: left;
+}
+
+#order-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#order-form label,
+#order-form select,
+#order-form input,
+#order-form button {
+    margin-bottom: 10px;
+}
+
+#order-confirmation {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#order-confirmation.hidden {
+    display: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
